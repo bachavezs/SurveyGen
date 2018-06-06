@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wu-Surveys</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+<link href="StyleSheet.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+        </asp:ContentPlaceHolder>
+</head>
+   
+<body>
+   
+        
+    <form id="form1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"> 
+        </asp:ContentPlaceHolder>
+    
+    
+<%--<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="default.aspx">Wu-Surveys</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="default.aspx" accesskey="1" title="">Home</a></li>
+				<li><a href="login.aspx" accesskey="2" title="">Login</a></li>
+				<li><a href="Register.aspx" accesskey="3" title="">Register</a></li>
+				<li><a href="Survey.aspx" accesskey="4" title="">Survey</a></li>
+			</ul>
+		</div>
+	</div>
+	
+</div>
+        --%>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"> 
+        </asp:ContentPlaceHolder>
+
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server"> 
+        </asp:ContentPlaceHolder>
+        
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server"> 
+        </asp:ContentPlaceHolder>
+<div id="copyright" class="container">
+	<p>&copy; Wu-Surverys. All rights reserved. | By Tristan Jones and Bryce Chavez</p>
+</div>
+    </form>
+</body>
+</html>

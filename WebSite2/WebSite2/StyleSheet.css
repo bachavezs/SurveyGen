@@ -1,0 +1,25 @@
+﻿body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    text-align:center;
+    height:75px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align:center;
+    height:50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bold {
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main_menu{
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:black;
+    text-align:center;
+    color:white;
+    margin-right: 5px;
+}
